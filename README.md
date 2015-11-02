@@ -8,7 +8,7 @@ The implementation is a rather naive one with just a few optimizations. Maybe I'
 
 If you compiled the main.hs you have the following options to call the main function:  
 
-main param <filename>  
+main \<param\> \<filename\>  
 where filename is the name of a file, where a Board is defined in this way:  
 1,5,2,4,8,3,7,6,  
 1,2,3,4,5,6,7,8,  
@@ -16,7 +16,7 @@ first is the board as it is to be solved
 second is the board as it should be  
 
 or  
-main param <x> <n>  
+main \<param\> \<x\> \<n\>  
 x being the board height and width  
 n being the number of steps Haskell is supposed to do random steps in an ordered board to make it unorderd  
   
