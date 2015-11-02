@@ -26,4 +26,4 @@ or -m mening you wan't to see a trace of what the solver's steps where
 
 Of course you can always just load the Haskell and play with it as you wish.  
 
-One last note: the longest a was able to wait for a result and not stoping before it returned was for the input ./Main 40 100000. Whereas .Main 20 100000 solves in about 5min.
+One last note: ./Main 20 100000 solves in about 5min. Whereas ./Main 20 10000 of course is not as good mixed and therefore solves in just about 40 seconds.
