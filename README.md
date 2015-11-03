@@ -26,4 +26,4 @@ or -m mening you wan't to see a trace of what the solver's steps where
 
 Of course you can always just load the Haskell and play with it as you wish.  
 
-One last note: ./Main 20 100000 solves in about 5min. Whereas ./Main 20 10000 of course is not as good mixed and therefore solves in just about 40 seconds.
+One last note: ./Main 20 100000 solves in about 5min and about 18000 steps. Whereas ./Main 20 10000 of course is not as good mixed and therefore solves in just about 40 seconds.
